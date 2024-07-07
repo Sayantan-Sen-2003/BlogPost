@@ -5,6 +5,7 @@ import About from './pages/About'
 import Dashboard from './pages/Dashboard'
 import SignIn from './pages/SignIn'
 import SignUp from './pages/SignUp'
+import Footer from './components/Footer';
 import Projects from './pages/Projects'
 import Header from './components/Header'
 
