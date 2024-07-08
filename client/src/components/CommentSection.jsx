@@ -131,7 +131,7 @@ export default function CommentSection({ postId }) {
         </div>
       ) : (
         <div className='text-sm text-teal-500 my-5 flex gap-1'>
-          You must be signed in to comment.
+          You must sign in first to comment.
           <Link className='text-blue-500 hover:underline' to={'/sign-in'}>
             Sign In
           </Link>
@@ -199,7 +199,7 @@ export default function CommentSection({ postId }) {
           <div className='text-center'>
             <HiOutlineExclamationCircle className='h-14 w-14 text-gray-400 dark:text-gray-200 mb-4 mx-auto' />
             <h3 className='mb-5 text-lg text-gray-500 dark:text-gray-400'>
-              Are you sure you want to delete this comment?
+              Are you sure that you want to delete this comment?
             </h3>
             <div className='flex justify-center gap-4'>
               <Button
