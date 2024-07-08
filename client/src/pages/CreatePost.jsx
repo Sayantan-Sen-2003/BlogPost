@@ -102,6 +102,7 @@ export default function CreatePost() {
               setFormData({ ...formData, category: e.target.value })
             }
           >
+            //WIP
             <option value='uncategorized'>Select a category</option>
             <option value='javascript'>JavaScript</option>
             <option value='reactjs'>React.js</option>
