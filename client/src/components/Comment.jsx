@@ -96,6 +96,8 @@ export default function Comment({ comment, onLike, onEdit, onDelete }) {
           </>
         ) : (
           <>
+          
+                          
             <p className='text-gray-500 pb-2'>{comment.content}</p>
             <div className='flex items-center pt-2 text-xs border-t dark:border-gray-700 max-w-fit gap-2'>
               <button
