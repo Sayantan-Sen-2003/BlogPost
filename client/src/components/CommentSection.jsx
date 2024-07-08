@@ -41,6 +41,8 @@ export default function CommentSection({ postId }) {
     }
   };
 
+    
+    
   useEffect(() => {
     const getComments = async () => {
       try {
