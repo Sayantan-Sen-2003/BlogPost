@@ -23,3 +23,15 @@ export const createComment = async (req, res, next) => {
       next(error);
     }
   };
+
+
+export const getPostComments = async (req, res, next) => {
+    try {
+      const comments = await Comment.find({ postId: req.params.postId }).sort({
+        createdAt: -1,
+      }); //-1 to sort for the newest one -->incase i forget how to check the sorting
+      res.status(200).json(comments);
+    } catch (error) {
+      next(error);
+    }
+  };
