@@ -35,7 +35,7 @@ export default function FooterCom() {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  Sahand's Blog
+                  BlogPost
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>
@@ -65,7 +65,7 @@ export default function FooterCom() {
         <div className='w-full sm:flex sm:items-center sm:justify-between'>
           <Footer.Copyright
             href='#'
-            by="Sahand's blog"
+            by="BlogPost"
             year={new Date().getFullYear()}
           />
           <div className="flex gap-6 sm:mt-0 mt-4 sm:justify-center">
