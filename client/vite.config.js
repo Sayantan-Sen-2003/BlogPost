@@ -7,9 +7,10 @@ export default defineConfig({
     proxy: {
       '/api': {
         target: 'https://blogpost-eanj.onrender.com',
-        secure: false,
+        changeOrigin: true,
+        secure: true,
       },
     },
   },
-  plugins: [react()],
+  plugins: [react()],
 });
