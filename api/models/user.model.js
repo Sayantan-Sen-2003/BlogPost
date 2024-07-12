@@ -19,7 +19,7 @@ const userSchema = new mongoose.Schema(
     profilePicture: {
       type: String,
       default:
-        'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png',
+        'https://media.istockphoto.com/id/1164822188/vector/male-avatar-profile-picture.jpg?s=1024x1024&w=is&k=20&c=tX9VBd9a8ShS3mU5uqjp1Tus40iKsBua_i2Ntf2ONd8=',
     },
     isAdmin: {
       type: Boolean,
