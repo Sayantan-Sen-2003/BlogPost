@@ -102,11 +102,19 @@ export default function CreatePost() {
               setFormData({ ...formData, category: e.target.value })
             }
           >
-            //WIP
             <option value='uncategorized'>Select a category</option>
-            <option value='javascript'>JavaScript</option>
-            <option value='reactjs'>React.js</option>
-            <option value='nextjs'>Next.js</option>
+            <option value='Tech'>Tech</option>
+            <option value='Travel'>Travel</option>
+            <option value='Food'>Food</option>
+            <option value='Health & Wellness'>Health & Wellness</option>
+            <option value='Lifestyle'>Lifestyle</option>
+            <option value='Finance'>Finance</option>
+            <option value='Education'>Education</option>
+            <option value='Entertainment'>Entertainment</option>
+            <option value='DIY & Crafts'>DIY & Crafts</option>
+            <option value='Parenting'>Parenting</option>
+            <option value='Relationships'>Relationships</option>
+            <option value='Hobbies'>Hobbies</option>
           </Select>
         </div>
         <div className='flex gap-4 items-center justify-between border-4 border-teal-500 border-dotted p-3'>

@@ -63,7 +63,6 @@ export default function Header() {
         <TextInput
           type='text'
           placeholder='Search...'
-          rightIcon={AiOutlineSearch}
           className='hidden lg:inline'
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
@@ -116,9 +115,6 @@ export default function Header() {
         </Navbar.Link>
         <Navbar.Link active={path === '/about'} as={'div'}>
           <Link to='/about'>About</Link>
-        </Navbar.Link>
-        <Navbar.Link active={path === '/projects'} as={'div'}>
-          <Link to='/projects'>Projects</Link>
         </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>

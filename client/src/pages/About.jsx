@@ -1,6 +1,5 @@
 import React from 'react'
 
-//WIP
 export default function About() {
   return (
     <div className='min-h-screen flex items-center justify-center'>
@@ -11,24 +10,21 @@ export default function About() {
           </h1>
           <div className='text-md text-gray-500 flex flex-col gap-6'>
             <p>
-              Welcome to BlogPost! This blog was created by Sahand Ghavidel
-              as a personal project to share his thoughts and ideas with the
-              world. Sahand is a passionate developer who loves to write about
-              technology, coding, and everything in between.
+              Welcome to BlogPost! This project was created by Abhrajit Das and
+              Sayantan Sen.
             </p>
 
             <p>
-              On this blog, you'll find weekly articles and tutorials on topics
-              such as web development, software engineering, and programming
-              languages. Sahand is always learning and exploring new
-              technologies, so be sure to check back often for new content!
+              We are Building a blog with the MERN stack is a cool project that combines
+              MongoDB, Express.js, React.js, and Node.js.
             </p>
 
             <p>
-              We encourage you to leave comments on our posts and engage with
-              other readers. You can like other people's comments and reply to
-              them as well. We believe that a community of learners can help
-              each other grow and improve.
+              With MongoDB, you can store all your blog posts and user data easily. Express.js
+              handles the backend, making it simple to manage routes and server-side logic. React.js
+              takes care of the frontend, giving you a smooth, dynamic user interface to create, edit
+              and display your blog posts. Node.js ties it all together, running JavaScript on the server.
+              This stack is great for creating a fast, scalable, and interactive blog platform.
             </p>
           </div>
         </div>
