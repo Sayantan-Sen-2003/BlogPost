@@ -6,11 +6,10 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://blogpost-eanj.onrender.com',
-        changeOrigin: true,
-        secure: true,
+        target: 'http://localhost:3000',
+        secure: false,
       },
     },
   },
-  plugins: [react()],
+  plugins: [react()],
 });
