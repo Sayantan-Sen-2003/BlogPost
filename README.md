@@ -3,7 +3,7 @@
 
 <hr>
 
-<img align="right" height="300px" src="https://cdni.iconscout.com/illustration/premium/thumb/man-trading-stocks-7113747-5783456.png?f=webp">
+<img align="right" height="300px" alt="blog img" src="https://img.freepik.com/free-vector/blogging-fun-content-creation-online-streaming-video-blog-young-girl-making-selfie-social-network-sharing-feedback-self-promotion-strategy-vector-isolated-concept-metaphor-illustration_335657-855.jpg">
 
 # Project Overview
 
@@ -30,7 +30,7 @@ Frontend-
 
 [ReactJs](https://react.dev/blog/2023/03/16/introducing-react-dev)
 [Redux](https://redux.js.org/)
-[Tailwind Css](https://v2.tailwindcss.com/docs)
+[TailwindCss](https://v2.tailwindcss.com/docs)
 
 
 Backend-
@@ -39,7 +39,7 @@ Backend-
 [MongoDb](https://www.mongodb.com/docs/)
 
 
-<img  height="290px" src="https://cdni.iconscout.com/illustration/premium/thumb/stock-market-and-trading-education-7113777-5783443.png">
+<img  height="290px" alt="blog img"src="https://mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png">
 
 ## Environment Variables
 
@@ -55,6 +55,23 @@ For FrontEnd (Inside client Folder)-
 
 `VITE_FIREBASE_API_KEY`
 
+## Node modules installation
+
+To install the node modules used in the project,
+
+```bash
+  npm i 
+```
+or
+
+```bash
+  npm install 
+```
+
+in both client directory (frontend) &
+in root directory(backend server)
+
+
 ## Run Command
 
 To run this project in local server,
@@ -64,6 +81,19 @@ To run this project in local server,
 ```
 in both client directory (frontend) &
 in root directory(backend server)
+
+## TECHNOLOGY STACK
+
+FRONTEND:-
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+
+BACKEND:-
+
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
 ## Features
 
