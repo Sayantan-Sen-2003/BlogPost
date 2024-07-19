@@ -105,7 +105,7 @@ BACKEND:-
 - Backend encrypted database for user details,posts,comment .
 
 
-## Website Preview (Demo)
+## Website Preview :-
 <img  src="img_templates/img0.png">
 <img  src="img_templates/img1.1.png">
 <img src="img_templates/img2.png">
