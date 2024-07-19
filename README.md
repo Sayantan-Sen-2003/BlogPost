@@ -76,8 +76,8 @@ in root directory(backend server)
 
 
 ## Website Preview (Demo)
-
-<img  src="img_templates/img1.png">
+<img  src="img_templates/img0.png">
+<img  src="img_templates/img1.1.png">
 <img src="img_templates/img2.png">
 <img src="img_templates/img3.png">
 <img src="img_templates/img3.5.png">
