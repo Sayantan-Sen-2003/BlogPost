@@ -70,6 +70,7 @@ in root directory(backend server)
 - Login Page via email-password or Firebase 
 - LightMode/DarkMode 
 - Active DashBoard for Users, Post- access & control
+- A customised search layout to search required post as and when needed
 - Commments,Edits,Like ,Delete added for comments.
 - Backend encrypted database for user details,posts,comment .
 
@@ -79,6 +80,7 @@ in root directory(backend server)
 <img  src="img_templates/img1.png">
 <img src="img_templates/img2.png">
 <img src="img_templates/img3.png">
+<img src="img_templates/img3.5.png">
 <img src="img_templates/img4.png">
 <img src="img_templates/img5.png">
 <img src="img_templates/img6.png">
